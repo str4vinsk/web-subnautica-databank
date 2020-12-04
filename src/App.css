@@ -1,0 +1,16 @@
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;}
+    @font-face {font-family: "Open Sans"; src: url("//db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.eot"); src: url("//db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.woff") format("woff"), url("//db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/629a55a7e793da068dc580d184cc0e31.svg#Open Sans") format("svg"); }
+body {
+    color: white;
+}
+@media (max-width: 768px) {
+    body {
+        background: url('./images/banner.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
